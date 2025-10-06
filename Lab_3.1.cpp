@@ -19,7 +19,7 @@ int main()
         a = pow(x, 2) - 5 * x;
     }
     if (x >= 0 && x < 3) {
-        a = atan(x + 4) / 8;
+        a = atan((x + 4) / 8);
     }
     if (x >= 3) {
         a = pow(x, 3) + exp(2 * x + 3);
@@ -32,7 +32,7 @@ int main()
         b = pow(x, 2) - 5 * x;
     }
     else if (x >= 0 && x < 3) {
-        b = atan(x+4) / 8;
+        b = atan((x+4) / 8);
     }
     else {
         b = pow(x, 3) + exp(2 * x + 3);
