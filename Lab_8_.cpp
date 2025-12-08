@@ -67,7 +67,7 @@ int main() {
 
     ifstream fin("lab8text.txt");
     if (!fin.is_open()) {
-        cout << "Íå âäàëîñÿ â³äêðèòè ôàéë!" << endl;
+        cout << "Не вдалося відкрити файл!" << endl;
         return 1;
     }
 
@@ -80,7 +80,7 @@ int main() {
     fin.close();
 
     int start;
-    cout << "Ââåä³òü ïî÷àòêîâó âåðøèíó: ";
+    cout << "Введіть початкову вершину: ";
     cin >> start;
 
     for (int i = 1; i <= n; i++) visited[i] = false;
